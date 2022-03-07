@@ -4,7 +4,9 @@
 
 Based on [jenkins/jenkins:almalinux](https://hub.docker.com/r/jenkins/jenkins/tags)
 
-This makes kicking off Ansible playbooks from Jenkins Pipelines easy
+Makes kicking off Ansible playbooks from Jenkins Pipelines easy.
+
+Should run on both amd64 and arm64 architectures.
 
 Install the [Ansible Plugin](https://plugins.jenkins.io/ansible/) to Jenkins and you've got yourself an alternative to Ansible Tower or AWX
 
