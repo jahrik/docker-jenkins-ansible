@@ -9,9 +9,9 @@ Produces `jahrik/docker-jenkins-ansible` — the official `jenkins/jenkins:almal
 ## Build & Push
 
 ```bash
-make build   # build locally as jahrik/docker-jenkins-ansible:latest
-make push    # push to Docker Hub
-make deploy  # docker stack deploy -c docker-compose.yml jenkins (creates /var/jenkins first)
+just build   # build locally as jahrik/docker-jenkins-ansible:latest
+just push    # push to Docker Hub
+just deploy  # docker stack deploy -c docker-compose.yml jenkins (creates /var/jenkins first)
 ```
 
 ## CI
