@@ -48,10 +48,10 @@ or
 
 If you clone this repo locally, you can use the Makefile
 
-    make build
-    make push
-    make pull
-    make deploy
+    just build
+    just push
+    just pull
+    just deploy
 
 Or just use the image uploaded to Dockerhub
 
